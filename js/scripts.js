@@ -61,90 +61,6 @@ $("#cookies-x").click(function() {
 
 
 
-//info o pustej zakładce
-/*$("#programme").mouseover(function() {
-    $(".add-info").css({
-            'display': 'block',
-    }),
-    $(".add-prog").css({
-            'display': 'block',
-    })
-});
-
-
-$("#programme").mouseout(function() {
-    $(".add-info").css({
-            'display': 'none',
-    }),
-    $(".add-prog").css({
-            'display': 'none',
-    })
-});
-
-/*
-$("#abstracts").mouseover(function() {
-    $(".add-info").css({
-            'display': 'block',
-    }),
-    $(".add-abstr").css({
-            'display': 'block',
-    })
-});
-
-
-$("#abstracts").mouseout(function() {
-    $(".add-info").css({
-            'display': 'none',
-    }),
-    $(".add-abstr").css({
-            'display': 'none',
-    })
-});
-*/
-
-//info o pustej zakładce o pustej zakładce po angielsku 
-
-/*$("#programme-en").mouseover(function() {
-    $(".add-info-en").css({
-            'display': 'block',
-    }),
-    $(".add-prog-en").css({
-            'display': 'block',
-    })
-});
-
-
-$("#programme-en").mouseout(function() {
-    $(".add-info-en").css({
-            'display': 'none',
-    }),
-    $(".add-prog-en").css({
-            'display': 'none',
-    })
-});
-
-/*$("#abstracts-en").mouseover(function() {
-    $(".add-info-en").css({
-            'display': 'block',
-    }),
-    $(".add-abstr-en").css({
-            'display': 'block',
-    })
-});
-
-
-$("#abstracts-en").mouseout(function() {
-    $(".add-info-en").css({
-            'display': 'none',
-    }),
-    $(".add-abstr-en").css({
-            'display': 'none',
-    })
-});
-*/
-
-//koniec info o pustej zakładce
-
 
 
 
@@ -223,7 +139,7 @@ $("#pl-en-option").mouseover(function() {
             'background-color': '#BDC3C7',
     }),
     $(".pl-en-option").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     })
 
 });
@@ -231,7 +147,7 @@ $("#pl-en-option").mouseover(function() {
 
 $("#pl-en-option").mouseout(function() {
     $(".pl-pl-option").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     }),
     $(".pl-en-option").css({
             'background-color': '#BDC3C7',
@@ -244,7 +160,7 @@ $("#pl-en-option-smaller").mouseover(function() {
             'background-color': '#BDC3C7',
     }),
     $(".pl-en-option-smaller").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     })
 
 });
@@ -252,7 +168,7 @@ $("#pl-en-option-smaller").mouseover(function() {
 
 $("#pl-en-option-smaller").mouseout(function() {
     $(".pl-pl-option-smaller").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     }),
     $(".pl-en-option-smaller").css({
             'background-color': '#BDC3C7',
@@ -308,7 +224,7 @@ $("#en-pl-option-smaller").click(function() {
 /*zmiana kolorów przycisków po najechaniu myszką - wersja angielska*/
 $("#en-pl-option").mouseover(function() {
     $(".en-pl-option").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     }),
     $(".en-en-option").css({
             'background-color': '#BDC3C7',
@@ -318,7 +234,7 @@ $("#en-pl-option").mouseover(function() {
 
 $("#en-pl-option-smaller").mouseover(function() {
     $(".en-pl-option-smaller").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     }),
     $(".en-en-option-smaller").css({
             'background-color': '#BDC3C7',
@@ -332,7 +248,7 @@ $("#en-pl-option").mouseout(function() {
             'background-color': '#BDC3C7',
     }),
     $(".en-en-option").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     })
 
 });
@@ -342,7 +258,7 @@ $("#en-pl-option-smaller").mouseout(function() {
             'background-color': '#BDC3C7',
     }),
     $(".en-en-option-smaller").css({
-            'background-color': '#16a085',
+            'background-color': '#0d3d6b',
     })
 
 });
