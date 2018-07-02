@@ -24,11 +24,12 @@
 body {
 	padding: 0 0;
 	margin: 0 0;
-	font-family: 'Georgia';
+
+	font-family: 'Raleway';
 	color: black;
-    background-color: rgba(46, 233, 191, 0.4);
+    background-color: var(--kolor-spodu);
 	overflow-x: hidden;
-    height: 2800px; <!--- height --->
+    height: 2900px; <!--- height --->
 }
 
 
@@ -60,8 +61,9 @@ body {
 	-webkit-text-stroke-width: 2px;*/
 	font-family: 'Bitter', serif;
 	font-size: 60px; 
-    letter-spacing: 0.1em;
+  letter-spacing: 0.1em;
     }
+
 
 
 .ic {
@@ -106,9 +108,11 @@ body {
 	left: 0vw;
 	height: 22vh;
 	width: 14vw;
-	background-color: rgba(46,44,200,0.6);
+
+	background-color: rgba(178, 190, 195,0.6);
 	padding-top: 1vh;
 	padding-left: 1vw;
+	border-top-right-radius: 10vh;
 	border-bottom-right-radius: 8vh;
 }
 
@@ -656,7 +660,9 @@ a:hover {
 .konferencja {
     width: 900px;
     height: 650px;
-    border: 0px solid black;
+
+    border: 5px solid black;
+
     padding: 20px;
     left: 0px;
     right: 0px;
@@ -673,6 +679,7 @@ a:hover {
 
 .konferencja h3 {
     text-align: center;
+
 }
 
 div .panel {
