@@ -1,4 +1,48 @@
 
+//przesuwanie strony z konferencją
+var frameTop = $('.tlo-1').offset().top;       // get initial position of the element
+
+$(window).scroll(function() {                  // assign scroll event listener
+
+    var currentScroll = $(window).scrollTop(); // get current position
+
+    if (currentScroll >= frameTop) {           // apply position: fixed if you
+        $('.tlo-1').css({                      // scroll to that element or below it
+            'position': 'fixed',
+            'top': '0vh',
+            'left': '0',
+            'width': '100vw',
+        }),
+                $('.konferencja').css({
+                'margin-top': '30vh',
+        });
+    } else {                                   // apply position: static
+    }
+
+});
+
+var insideOneTop = $('.tlo-2').offset().top;
+
+$(window).scroll(function() {
+
+    var currentScroll = $(window).scrollTop();
+
+if (currentScroll >= insideOneTop) {
+        $('.tlo-1').css({
+                'position': 'absolute',
+                'top':'0px',
+                'left':'0px',
+        }),
+                $('.panel').css({
+                'margin-top': '30vh',
+        });
+} else {
+} 
+});
+
+//koniec przesuwania strony z konferencją
+
+
 
 var fixmeTop = $('.hiddentitle').offset().top;       // get initial position of the element
 
